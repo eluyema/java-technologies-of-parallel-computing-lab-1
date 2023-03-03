@@ -1,4 +1,4 @@
-package billiards;
+package Billiards;
 
 import javax.swing.JFrame;
 
@@ -9,7 +9,7 @@ public class Bounce {
 
         frame.setVisible(true);
         System.out.println("Thread name = " +
-            Thread.currentThread().getName());
+                Thread.currentThread().getName());
 
     }
 }

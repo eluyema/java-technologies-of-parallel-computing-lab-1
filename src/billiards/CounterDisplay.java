@@ -1,18 +1,18 @@
-package billiards;
+package Billiards;
 
 import javax.swing.JLabel;
 
 public class CounterDisplay {
     private int count;
     private JLabel counterLabel;
-    
+
     public CounterDisplay() {
         count = 0;
         counterLabel = new JLabel("Count: " + count);
     }
-    
+
     public JLabel getLabel() {
-    	return counterLabel;
+        return counterLabel;
     }
 
     public void increment() {
